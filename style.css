@@ -1,0 +1,64 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+.aside{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.pic{
+    width: 100px;
+}
+
+.bg-menu{
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+.mnu{
+    text-decoration: none;
+    color: darkred;
+    margin-left: 20px;
+    font-family: open sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.mnu:hover{
+    background-color: blueviolet;
+    color: black;
+    padding: 0px 20px 0px 20px;
+}
+
+.amp{
+    color: blue;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.card-pic{
+    width: 40%;
+}
+
+.desc{
+    font-size: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.ast{
+    font-size: 20px;
+    color: darkgreen;
+}
